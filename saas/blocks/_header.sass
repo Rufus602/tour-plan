@@ -1,4 +1,4 @@
-.header
+.navbar
   background-color: #fff
   &-top
     display: flex
@@ -9,6 +9,9 @@
   &__search
     margin-right: auto
     margin-left: 9.72%
+  &-bottom
+    background-color: $dark
+    
 .search
   display: flex
   position: relative
@@ -16,7 +19,7 @@
   border-radius: 6px
   height: 40px
   &__input
-    width: 350px
+    width: 100%
     height: 100%
     padding-left: 23px
     padding-right: 75px
@@ -33,6 +36,30 @@
     width: 65px
     border: none
     background-color: $primary-color
+.menu
+  list-style-type: none
+  display: flex
+  margin: 0
+  padding: 31px 0px
+  justify-content: space-between
+  align-items: center
+  &-button
+   display: none
+   width: 16px
+   height: 11px
+   justify-content: space-between
+   align-items: center
+   flex-direction: column
+   border: none
+   &__line
+     height: 1px
+     width: 16px
+     background-color: $text-color
+  &__link
+    text-decoration: none
+    color: #fff
+    font-size: 14px
+    line-height: 18px
 .user
   display: flex
   align-items: center
