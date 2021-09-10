@@ -397,7 +397,7 @@ image {
 }
 
 .search__input {
-  width: 100%;
+  width: 350px;
   height: 100%;
   padding-left: 23px;
   padding-right: 75px;
@@ -437,6 +437,7 @@ image {
   display: none;
   width: 16px;
   height: 11px;
+  padding: 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -448,6 +449,7 @@ image {
       -ms-flex-direction: column;
           flex-direction: column;
   border: none;
+  background-color: #fff;
 }
 
 .menu-button__line {
@@ -506,6 +508,8 @@ image {
   }
   .navbar__search {
     margin-left: auto;
+  }
+  .navbar .search {
     max-width: 340px;
   }
   .menu {
